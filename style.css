@@ -1,0 +1,114 @@
+@font-face {
+    font-family: FIFA;
+    src: url(/assets/EASports.ttf);
+}
+
+body {
+    height: 100%;
+    background: rgb(0,0,0);
+    background: linear-gradient(122deg, rgba(0,200,255,1) 35%, rgba(157,255,0,1) 85%);
+    padding: 2%;
+    font-family: FIFA;
+}
+
+.navbar {   
+    background-color: transparent!important;
+    margin-bottom: 3%
+}
+
+.player_img {
+    margin: auto;
+    height: 250px;
+}
+
+.attributes_card_over_25 {
+    box-shadow: 5px 5px 4px #00c8ff, 10px 5px 8px #9dff00;
+}
+
+.attributes_card_under_25 {
+    box-shadow: -5px 5px 4px #9dff00,  -10px 5px 8px #00c8ff;;
+}
+
+.card_title_over_25 {
+    text-align: left;
+}
+
+.card_title_under_25 {
+    text-align: right;
+}
+
+.card_info_over_25 {
+    text-align: left;
+}
+
+.card_info_under_25 {
+    text-align: right;
+}
+
+#players_age_slider {
+    margin: 5% 5% 5% 0%;
+    padding: 2%
+}
+
+#label_1 {
+    color:aliceblue;
+    font-size: 250%;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    
+}
+
+.label_2 {
+    color:aliceblue;
+    font-size: 125%;  
+}
+
+.attribute_selection_card {
+    box-shadow: 5px 10px 8px #00c8ff, 10px 5px 8px #9dff00;
+    margin-bottom: 45%;
+}
+
+.players_over_25_card {
+    box-shadow: 5px 10px 8px #00c8ff, 10px 5px 8px #9dff00 ;
+    margin-bottom: 10%;
+}
+
+.players_under_25_card {
+    box-shadow: -5px 10px 8px #9dff00, -10px 5px 8px #00c8ff;
+    margin-bottom: 10%;
+}
+
+.league_analysis_bar_plot{
+    box-shadow: 5px 10px 8px #00c8ff, 10px 5px 8px #9dff00 ;
+}
+
+.rc-slider-track {
+    background: linear-gradient(122deg, rgba(0,200,255,1) 35%, rgba(157,255,0,1) 85%);
+}
+  
+.rc-slider-dot-active {  
+    border-color: #5676F8;
+    border: solid 2px #9536F8;
+}
+  
+.rc-slider-handle {
+    background-color: #ffc649;
+    border-color: #ee2e24
+}
+  
+.rc-slider-handle:hover {
+    border-color: #9536F8;
+}
+  
+.rc-slider-handle-active:active {
+    border-color: #9536F8;
+}
+
+.nav-link {
+    color:white;
+}
+
+.nav-link:hover{
+    color: black;
+    border: transparent;
+}
